@@ -4,10 +4,11 @@
   const blogs = [
     {
       id: 1,
-      title: "The Future of Artificial Intelligence",
-      author: "John Smith",
-      excerpt: "Exploring the potential impact of AI on various industries.",
-      body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend ante eu massa molestie, sed aliquet risus rutrum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut non est lectus. In vel eros nec turpis consequat cursus. Duis vestibulum vestibulum turpis, non lobortis nulla. Suspendisse potenti. Nulla facilisi. Fusce maximus justo eget nulla faucibus congue. Ut id magna sed nisl vehicula laoreet non a metus. Sed vulputate, mauris sit amet tincidunt laoreet, mauris justo volutpat ante, a posuere dolor nulla vel lorem. Duis ac posuere nulla, a semper sapien. Sed vestibulum sodales felis ut placerat. Quisque et libero bibendum, feugiat lectus et, efficitur lorem.",
+      title: "Shop",
+      author: "Expiration Date",
+      excerpt: "Terms and conditions.",
+      body: "Coupon code photo",
+      photo: ""
     },
     {
       id: 2,
