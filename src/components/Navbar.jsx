@@ -9,7 +9,7 @@ function Navbar() {
             <Link to="/" className="bg-sky-700 p-2 hover:bg-sky-600 rounded-lg">Home</Link>
             <Link to="/About" className="bg-sky-700 p-2 hover:bg-sky-600 rounded-lg">About</Link>
             <Link to="/Blog" className="bg-sky-700 p-2 hover:bg-sky-600 rounded-lg">Blog</Link>
-            <Link to="/addnew" className="bg-sky-700 p-2 hover:bg-sky-600 rounded-lg">+</Link>
+            <Link to="/addform" className="bg-sky-700 p-2 hover:bg-sky-600 rounded-lg">+</Link>
         </div>
       </nav>
     </div>

@@ -4,8 +4,9 @@ import Blog from "./subpages/Blog";
 import About from "./subpages/About"
 import Home from "./subpages/Home"
 import { Routes, Route } from "react-router-dom";
-import Create from "./Create";
 import Rants from "./data/Rants"
+import Addform from "./subpages/Addform";
+import Blogdetails from "./subpages/Blogdetails";
 
 function App() {
   return (
@@ -17,8 +18,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/blog" element={<Blog />} />
-          <Route path="/create" element={<Create />} />
-          
+          <Route path="/addform" element={<Addform />} />
+          <Route path="/blogdetails/:id" element={<Blogdetails />} />
         </Routes>
       </div>
 
@@ -29,6 +30,5 @@ function App() {
 export default App;
 
 //HW Notes:
-//Work on logic of linking pages from navbar
-//Navbar that contains local
-//Each link can take you to available pages
+//React Redux chapter
+//Read https://classroom.codelabsacademy.com/classroom/learn/wd_04_centralizing_state_with_redux
