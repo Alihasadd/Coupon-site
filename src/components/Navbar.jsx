@@ -5,11 +5,11 @@ function Navbar() {
   return (
     <div>
       <nav className="navbar" >
-        <div className="link flex gap-y-4 gap-x-4 bg-sky-800 text-white p-5">
-            <Link to="/" className="bg-sky-700 p-2 hover:bg-sky-600 rounded-lg">Home</Link>
-            <Link to="/About" className="bg-sky-700 p-2 hover:bg-sky-600 rounded-lg">About</Link>
-            <Link to="/Blog" className="bg-sky-700 p-2 hover:bg-sky-600 rounded-lg">Blog</Link>
-            <Link to="/addform" className="bg-sky-700 p-2 hover:bg-sky-600 rounded-lg">+</Link>
+        <div className="link flex gap-y-4 gap-x-4 bg-white text-white p-5">
+            <Link to="/" className="bg-indigo-700 p-2 hover:bg-indigo-600 rounded-lg ">Home</Link>
+            <Link to="/About" className="bg-indigo-700 p-2 hover:bg-indigo-600 rounded-lg">About</Link>
+            <Link to="/Blog" className="bg-indigo-700 p-2 hover:bg-indigo-600 rounded-lg">Blog</Link>
+            <Link to="/addform" className="bg-indigo-700 p-2 hover:bg-indigo-600 rounded-lg">+</Link>
         </div>
       </nav>
     </div>
