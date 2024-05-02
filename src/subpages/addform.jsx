@@ -41,6 +41,8 @@ function Addform() {
         </div>
 
         <div className="px-2 py-2">Scan Card To Add<br></br>
+        //QR Code insert here
+        //Added file in subpages for QR code scanner
 
         </div>
         
