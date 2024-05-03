@@ -1,5 +1,6 @@
 import React from 'react'
 import About from '../data/Addform'
+import Qrcode from './Qrcode'
 
 function Addform() {
   return (
@@ -41,8 +42,8 @@ function Addform() {
         </div>
 
         <div className="px-2 py-2">Scan Card To Add<br></br>
-        //QR Code insert here
-        //Added file in subpages for QR code scanner
+        <Qrcode></Qrcode>
+  
 
         </div>
         
