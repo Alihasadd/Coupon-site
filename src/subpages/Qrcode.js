@@ -32,7 +32,7 @@ function error(err) {
     <div className="Qrcode">
       <h1>QR code scanner</h1>
       { scanResult
-      ? <div>Success: <a href={"http://"+scanResult}>{scanResult} </a> </div>
+      ? <div>Success: <a href={+scanResult}>{scanResult} </a> </div>
       : <div id="reader"></div>
       }
     </div>
