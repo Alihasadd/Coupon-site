@@ -9,8 +9,8 @@ function Qrcode() {
 useEffect(() => {
   const scanner = new Html5QrcodeScanner('reader' , {
     qrbox: {
-    width: 150,
-    height: 150,
+    width: 50,
+    height: 50,
   },
   fps: 5,
 })
@@ -30,7 +30,7 @@ function error(err) {
 
   return (
     <div className="Qrcode">
-      <h1>QR code scanner</h1>
+      <h1>Scan card to add</h1>
       { scanResult
       ? <div>Success: <a href={+scanResult}>{scanResult} </a> </div>
       : <div id="reader"></div>

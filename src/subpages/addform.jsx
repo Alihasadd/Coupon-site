@@ -5,32 +5,32 @@ import Qrcode from './Qrcode'
 function Addform() {
   return (
     
-       <div className="  bg-indigo-800 pt-4 p-2 text-indigo-900  @container">
+       <div className="  bg-indigo-800 pt-4 p-2 text-indigo-900  @container justify-center max-w-96">
         
-      <form className="border-slate-300 border bg-slate-200 p-5 ml-20 mr-20 mt-1 rounded-lg  align-middle flex flex-col space-y-1 font-sans">
+      <form className="border-slate-300 border bg-slate-200 p-5 ml-20 mr-20 mt-1 rounded-lg  align-middle flex flex-col space-y-1 font-sans ">
         <h1 className="font-sans font-extrabold">Add offer details</h1>
        
        
         <div className="px-2 py-2">Offer details <br></br>
-          <input className="Offer rounded-md font-sans px-4 container mx-auto" type="text" placeholder="ex. Free taco, 20% off" />
+          <input className="Offer rounded-md font-sans px-4 max-w-40" type="text" placeholder="ex. Free taco, 20% off" />
         </div>
         
         <div className="px-2 py-2">Where to redeem <br></br>
-          <input className="Company/Brand rounded-md px-2" type="text" placeholder="Company/Brand" />
+          <input className="Company/Brand rounded-md px-2 max-w-40" type="text" placeholder="Company/Brand" />
         </div>
         
         <div className="px-2 py-2">Expiration date <br></br>
-          <input className="Expiration Date rounded-md " type="date" /> <br></br>
+          <input className="Expiration Date rounded-md max-w-40" type="date" /> <br></br>
           <input className="No Expiration Date" type="checkbox" />
           <label>No expiration</label>
         </div>
         
         <div className="px-2 py-2">Offer value <br></br>
-          <input className="Value rounded-md px-2" type="number" placeholder="Value" data-type="currency" />
+          <input className="Value rounded-md px-2 max-w-40" type="number" placeholder="Value" data-type="currency" />
         </div>
         
         <div className="px-2 py-2">Redeption conditions <br></br>
-          <input className="Redeption conditions rounded-md px-2" type="text" placeholder="Terms and Conditions" />
+          <input className="Redeption conditions rounded-md px-2 max-w-40" type="text" placeholder="Terms and Conditions" />
         </div>
 
         <div className="px-2 py-2">Offer type <br></br>
@@ -41,7 +41,7 @@ function Addform() {
           <label for="type2">Physical</label>
         </div>
 
-        <div className="px-2 py-2">Scan Card To Add<br></br>
+        <div className="px-2 py-2"><br></br>
         <Qrcode />
   
 
