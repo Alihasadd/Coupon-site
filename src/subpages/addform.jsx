@@ -5,13 +5,13 @@ import Qrcode from './Qrcode'
 function Addform() {
   return (
     
-       <div className="  bg-indigo-800 pt-4 p-2 text-indigo-900  @container justify-center max-w-96">
+       <div className="  bg-indigo-800 pt-4 p-2 text-indigo-900  @container  ">
         
-      <form className="border-slate-300 border bg-slate-200 p-5 ml-20 mr-20 mt-1 rounded-lg  align-middle flex flex-col space-y-1 font-sans ">
+      <form className="border-slate-300 border bg-slate-200 p-5 ml-20 mr-20 mt-1 space-y-1 rounded-lg font-sans max-w-64 justify-center ">
         <h1 className="font-sans font-extrabold">Add offer details</h1>
        
        
-        <div className="px-2 py-2">Offer details <br></br>
+        <div className="justify-around">Offer details <br></br>
           <input className="Offer rounded-md font-sans px-4 max-w-40" type="text" placeholder="ex. Free taco, 20% off" />
         </div>
         
