@@ -7,12 +7,12 @@ function Addform() {
     
        <div className="  bg-indigo-800 pt-4 p-2 text-indigo-900  @container  ">
         
-      <form className="border-slate-300 border bg-slate-200 p-5 ml-20 mr-20 mt-1 space-y-1 rounded-lg font-sans max-w-64 justify-center ">
-        <h1 className="font-sans font-extrabold">Add offer details</h1>
+      <form className="border-slate-300 border bg-slate-200 p-5 ml-20 mr-20 mt-2 space-y-1 rounded-lg font-sans max-w-64 justify-center ">
+        <h1 className="font-sans font-extrabold px-2">Add offer details</h1>
        
        
-        <div className="justify-around">Offer details <br></br>
-          <input className="Offer rounded-md font-sans px-4 max-w-40" type="text" placeholder="ex. Free taco, 20% off" />
+        <div className="justify-around px-2">Offer details <br></br>
+          <input className="Offer rounded-md font-sans px-2 max-w-40" type="text" placeholder="ex. Free taco, 20% off" />
         </div>
         
         <div className="px-2 py-2">Where to redeem <br></br>
@@ -47,7 +47,7 @@ function Addform() {
 
         </div>
         
-        <button className="border-4 border-indigo-500/50 hover:border-indigo-700 hover:bg-indigo-700 hover:text-white hover:font-extrabold rounded-md px-2">+</button>
+        <button className="border-4 border-indigo-500/50 hover:border-indigo-700 hover:bg-indigo-700 hover:text-white hover:font-extrabold rounded-md px-2 min-w-48 justify-center">+</button>
 
       </form>
     </div>

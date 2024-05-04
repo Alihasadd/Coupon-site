@@ -6,10 +6,10 @@ function Navbar() {
     <div>
       <nav className="navbar" >
         <div className="link flex gap-y-4 gap-x-4 bg-white text-white p-5">
-            <Link to="/" className="bg-indigo-700 p-2 hover:bg-indigo-600 rounded-lg ">Home</Link>
-            <Link to="/About" className="bg-indigo-700 p-2 hover:bg-indigo-600 rounded-lg">About</Link>
-            <Link to="/Blog" className="bg-indigo-700 p-2 hover:bg-indigo-600 rounded-lg">Blog</Link>
-            <Link to="/addform" className="bg-indigo-700 p-2 hover:bg-indigo-600 rounded-lg">+</Link>
+            <Link to="/" className="bg-indigo-700 p-2 hover:bg-indigo-600 rounded-lg min-w-24 text-center">Home</Link>
+            <Link to="/About" className="bg-indigo-700 p-2 hover:bg-indigo-600 rounded-lg min-w-24 text-center">About</Link>
+            <Link to="/Blog" className="bg-indigo-700 p-2 hover:bg-indigo-600 rounded-lg min-w-24 text-center">Blog</Link>
+            <Link to="/addform" className="bg-indigo-700 p-2 hover:bg-indigo-600 rounded-lg min-w-24 text-center">+</Link>
         </div>
       </nav>
     </div>
