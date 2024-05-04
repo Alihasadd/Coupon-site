@@ -4,7 +4,7 @@
   const blogs = [
     {
       id: 1,
-      title: "Shop",
+      Offer: "Target",
       author: "Expiration Date",
       excerpt: "Terms and conditions.",
       body: "Coupon code photo",

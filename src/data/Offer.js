@@ -13,22 +13,27 @@
       </div>
 */
 
-const rants = [
+const Offers = [
     {
       id: 1,
-      title: "I hate the cinema",
-      author: "Me",
-      excerpt: "Not sure why people enjoy going to the Cinema.",
-      body: "The cinema makes no sense to me... I find it to be a uncomfortable experience. First I have to schedule out my day to see a movie. Then I have to go to the movies and wait in a line and hopefully there is space for me. Then if I want snacks they are airport prices. Then I have to wait through a bunch of advertisements for the actual movie I wanted to see and if I don't do this I end up with horrible seats! If you go with friends, good luck sitting together. The seats are gross and sticky and so is the floor because people spill their snacks and soda. The arm rests are also disgusting because they are rarely cleaned. Then you are in the movie and there are a bunch of people around you making noise. During the movie people might talk or disrupt and the chairs are worse than any I have at home. After the film I walk out and my eyes have to adjust to the light which hurts. If I want to talk about the film I need to only do it with friends who saw it otherwise they will say don't ruin it for me... I hate the movies and don't understand why others enjoy this experience. It would be much more comfortable to watch from my home and my awesome couch and be able to stop the film to go to the bathroom or have snacks that are normal prices!",
+      Offer: "Target",
+      location: "Target",
+      expiration: "12/31/2024",
+      value: "$20",
+      conditions: "In store and online",
+      type: "digital",
+      scan: "In store and online",
     },
     {
-      id: 2,
-      title: "I hate engagement rings",
-      author: "Me",
-      excerpt:
-        "Diamonds are NOT rare and shouldn't be expensive.",
-      body: "Diamonds are not rare and help exploit people in other countries. When you get engaged people always ask to see your ring which is a ridiculous response to finding out someone is going to get married. Then people always have opinions about your ring and might make you feel bad if the diamond isn't big enough because they might think your partner cheaped out on the ring. A smaller ring is much more practical so it doesn't get stuck on your clothing or in your hair if you run your hands through it. People have been tricked into buying these rings. They also serve the purpose of letting others know your marital status which used to be seen as a status symbol. Rings are dumb.",
-    },
+        id: 2,
+        Offer: "Bar taco",
+        location: "Bar taco",
+        expiration: "never",
+        value: "$10",
+        conditions: "In store only",
+        type: "Physical",
+        scan: "In store and online",
+      },
     {
       id: 3,
       title: "I hate entitled people with animals",

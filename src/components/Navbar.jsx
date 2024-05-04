@@ -8,7 +8,8 @@ function Navbar() {
         <div className="link flex gap-y-4 gap-x-4 bg-white text-white p-5">
             <Link to="/" className="bg-indigo-700 p-2 hover:bg-indigo-600 rounded-lg min-w-24 text-center">Home</Link>
             <Link to="/About" className="bg-indigo-700 p-2 hover:bg-indigo-600 rounded-lg min-w-24 text-center">About</Link>
-            <Link to="/Blog" className="bg-indigo-700 p-2 hover:bg-indigo-600 rounded-lg min-w-24 text-center">Blog</Link>
+            <Link to="/Blog" className="bg-indigo-700 p-2 hover:bg-indigo-600 rounded-lg min-w-24 text-center">Rants</Link>
+            <Link to="/Offer" className="bg-indigo-700 p-2 hover:bg-indigo-600 rounded-lg min-w-24 text-center">Offer</Link>
             <Link to="/addform" className="bg-indigo-700 p-2 hover:bg-indigo-600 rounded-lg min-w-24 text-center">+</Link>
         </div>
       </nav>

@@ -7,6 +7,7 @@ import { Routes, Route } from "react-router-dom";
 import Rants from "./data/Rants"
 import Addform from "./subpages/Addform";
 import Blogdetails from "./subpages/Blogdetails";
+import Coupons from "./subpages/Coupons";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/addform" element={<Addform />} />
+          <Route path="/coupons" element={<Coupons />} />
           <Route path="/blogdetails/:id" element={<Blogdetails />} />
         </Routes>
       </div>
