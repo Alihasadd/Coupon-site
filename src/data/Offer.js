@@ -99,4 +99,4 @@ const Offers = [
     },
   ];
   
-  export default rants;
+  export default Offers;

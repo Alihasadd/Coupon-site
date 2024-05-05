@@ -1,5 +1,6 @@
 import React from 'react'
 import Offer from '../data/Offer'
+import { Link } from 'react-router-dom'
 
 function Coupon() {
     return (
@@ -7,10 +8,10 @@ function Coupon() {
         <div className="grid-cols-1 grid gap-2 bg-slate-900 pt-5">
       {Offer.map((post) => (
           <div key={post.id} className=" bg-slate-200 p-5 ml-20 mr-20 mt-1  rounded-lg  hover:bg-white relative" >
-              <h2 className="font-bold p-1 justify-center">{post.offer}</h2>
+              <h2 className="font-bold p-1 justify-center">{post.offers}</h2>
               <p className="font-normal p-1">{post.value}</p>
               <span className="bg-orange-500 absolute top-0 right-4 p-1 rounded-b-lg">Expiration</span>
-              
+              <Link to={`/home/${post.id}`}>Form</Link>
   
   
       

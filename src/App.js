@@ -7,7 +7,7 @@ import { Routes, Route } from "react-router-dom";
 import Rants from "./data/Rants"
 import Addform from "./subpages/Addform";
 import Blogdetails from "./subpages/Blogdetails";
-import Coupons from "./subpages/Coupons";
+import Coupons from "./subpages/Coupons.jsx";
 
 function App() {
   return (
