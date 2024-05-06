@@ -11,18 +11,12 @@ function Blog() {
             <p className="font-normal p-1">{post.excerpt}</p>
             <span className="bg-orange-500 absolute top-0 right-4 p-1 rounded-b-lg">5 Min Read</span>
             
-
-
-    
          </div>
     ))}
-    
     </div>
     </div>
 
-    
-  )
-}
+  )}
 
 export default Blog
 

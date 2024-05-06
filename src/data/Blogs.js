@@ -1,7 +1,7 @@
 
 
 
-  const blogs = [
+  const Other = [
     {
       id: 1,
       Offer: "Target",
@@ -83,4 +83,4 @@
     },
   ];
   
-  export default blogs;
+  export default Other;

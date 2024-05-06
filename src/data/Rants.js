@@ -1,17 +1,4 @@
-/*<body> You never have to ask me what I want to eat, it's always going to be the same answer.</body>
-      <div>I always want the same foods in the same order.</div>
 
-      <div>
-      <ol>
-        <li>Sushi</li>
-        <li>Mexican</li>
-        <li>Thai</li>
-        <li>Sandwiches</li>
-        <li>Pizza</li>
-        <li>Burgers</li>
-      </ol>
-      </div>
-*/
 
 const rants = [
     {
