@@ -9,7 +9,9 @@ function Offers() {
         <div key={post.id} className=" bg-slate-200 p-5 ml-20 mr-20 mt-1  rounded-lg  hover:bg-white relative" >
             <h2 className="font-bold p-1 justify-center">{post.card}</h2>
             <p className="font-normal p-1">{post.value}</p>
-            <span className="bg-orange-500 absolute top-0 right-4 p-1 rounded-b-lg">5 Min Read</span>
+            <p className="font-normal p-1 absolute bottom-0 right-4 p-1">{post.conditions}</p>
+            <p className="text-2xl text-white bg-indigo-500 absolute bottom-0 left-4 p-1 rounded-t-lg px-2 py-2">{post.value}</p>
+            <span className="bg-orange-500 absolute top-0 right-4 p-1 rounded-b-lg">{post.expiration}</span>
             
          </div>
     ))}
