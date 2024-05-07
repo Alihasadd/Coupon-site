@@ -1,7 +1,12 @@
+import { Link } from "react-router-dom";
+import target from "../images/target.jpeg";
+import bartaco from "../images/bartaco.jpeg";
+
 
 const here = [
     {
       id: 1,
+      logo: target,
       card: "Target",
       location: "Target locations",
       expiration: "12/31/2024",
@@ -12,7 +17,7 @@ const here = [
     },
     {
         id: 2,
-        card: "Bar taco",
+        card: bartaco,
         location: "Ballston",
         expiration: "Never Expires",
         value: "$10",
