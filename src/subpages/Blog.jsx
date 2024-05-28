@@ -4,7 +4,7 @@ import Rants from '../data/Rants'
 function Blog() {
   return (
     <div>
-      <div className="grid-cols-1 grid gap-2 bg-slate-900 pt-5">
+      <div className="grid-cols-1 grid gap-2 bg-slate-900 pt-5 m-2">
     {Rants.map((post) => (
         <div key={post.id} className=" bg-slate-200 p-5 ml-20 mr-20 mt-1  rounded-lg  hover:bg-white relative" >
             <h2 className="font-bold p-1 justify-center">{post.title}</h2>
